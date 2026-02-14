@@ -1,0 +1,288 @@
+2026-02-13 19:47:40 | INFO | P05 | === RUN START ===
+2026-02-13 19:47:40 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 19:47:40 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 19:47:40 | INFO | P05 | python=3.14.3
+2026-02-13 19:47:40 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 19:47:40 | INFO | P05 | shell=zsh
+2026-02-13 19:47:40 | INFO | P05 | cwd=.
+2026-02-13 19:47:40 | INFO | P05 | github_actions=False
+2026-02-13 19:47:40 | INFO | P05 | START main()
+2026-02-13 19:47:40 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 19:47:40 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 19:47:40 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 19:47:40 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 19:47:40 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:47:40 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:47:40 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:47:40 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:47:40 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 19:51:36 | INFO | P05 | === RUN START ===
+2026-02-13 19:51:36 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 19:51:36 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 19:51:36 | INFO | P05 | python=3.14.3
+2026-02-13 19:51:36 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 19:51:36 | INFO | P05 | shell=zsh
+2026-02-13 19:51:36 | INFO | P05 | cwd=.
+2026-02-13 19:51:36 | INFO | P05 | github_actions=False
+2026-02-13 19:51:36 | INFO | P05 | START main()
+2026-02-13 19:51:36 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 19:51:36 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 19:51:36 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 19:51:36 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 19:51:36 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:51:36 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:51:36 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:51:36 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:51:36 | INFO | P05 | LOAD CSV -> table shelter: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/shelter.csv
+2026-02-13 19:51:36 | INFO | P05 | DONE loading shelter rows: 3
+2026-02-13 19:51:36 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 19:51:36 | INFO | P05 | DONE loading adoption rows: 5
+2026-02-13 19:51:36 | INFO | P05 | COMMIT: data load complete
+2026-02-13 19:51:36 | INFO | P05 | 
+2026-02-13 19:51:36 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_store_count.sql
+2026-02-13 19:57:32 | INFO | P05 | === RUN START ===
+2026-02-13 19:57:32 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 19:57:32 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 19:57:32 | INFO | P05 | python=3.14.3
+2026-02-13 19:57:32 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 19:57:32 | INFO | P05 | shell=zsh
+2026-02-13 19:57:32 | INFO | P05 | cwd=.
+2026-02-13 19:57:32 | INFO | P05 | github_actions=False
+2026-02-13 19:57:32 | INFO | P05 | START main()
+2026-02-13 19:57:32 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 19:57:32 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 19:57:32 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 19:57:32 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:57:32 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:57:32 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:57:32 | INFO | P05 | LOAD CSV -> table shelter: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/shelter.csv
+2026-02-13 19:57:32 | INFO | P05 | DONE loading shelter rows: 3
+2026-02-13 19:57:32 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 19:57:32 | INFO | P05 | DONE loading adoption rows: 5
+2026-02-13 19:57:32 | INFO | P05 | COMMIT: data load complete
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | adoption_count
+2026-02-13 19:57:32 | INFO | P05 | 5
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | adoption_count, total_fee_revenue, avg_adoption_fee
+2026-02-13 19:57:32 | INFO | P05 | 5, 405.0, 81.0
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | animal_type, total_outcomes, adoption_count, non_adoption_count, total_fees, avg_adoption_fee
+2026-02-13 19:57:32 | INFO | P05 | Dog, 3, 2, 1, 270.0, 135.0
+2026-02-13 19:57:32 | INFO | P05 | Cat, 2, 2, 0, 135.0, 67.5
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | shelter_id, shelter_name, city, capacity, adoption_count, total_adoption_fees, avg_adoption_fee
+2026-02-13 19:57:32 | INFO | P05 | H001, Pine Valley Shelter, Ely, 40, 2, 225.0, 112.5
+2026-02-13 19:57:32 | INFO | P05 | H003, South Ridge Shelter, Mankato, 35, 1, 120.0, 120.0
+2026-02-13 19:57:32 | INFO | P05 | H002, Lake County Shelter, Duluth, 60, 2, 60.0, 30.0
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 19:57:32 | INFO | P05 | ====================================
+2026-02-13 19:57:32 | INFO | P05 | shelter_count
+2026-02-13 19:57:32 | INFO | P05 | 3
+2026-02-13 19:57:32 | INFO | P05 | 
+2026-02-13 19:57:32 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_revenue.sql
+2026-02-13 19:57:35 | INFO | P05 | === RUN START ===
+2026-02-13 19:57:35 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 19:57:35 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 19:57:35 | INFO | P05 | python=3.14.3
+2026-02-13 19:57:35 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 19:57:35 | INFO | P05 | shell=zsh
+2026-02-13 19:57:35 | INFO | P05 | cwd=.
+2026-02-13 19:57:35 | INFO | P05 | github_actions=False
+2026-02-13 19:57:35 | INFO | P05 | START main()
+2026-02-13 19:57:35 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 19:57:35 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 19:57:35 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 19:57:35 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:57:35 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:57:35 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 19:57:35 | INFO | P05 | LOAD CSV -> table shelter: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/shelter.csv
+2026-02-13 19:57:35 | INFO | P05 | DONE loading shelter rows: 3
+2026-02-13 19:57:35 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 19:57:35 | INFO | P05 | DONE loading adoption rows: 5
+2026-02-13 19:57:35 | INFO | P05 | COMMIT: data load complete
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | adoption_count
+2026-02-13 19:57:35 | INFO | P05 | 5
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | adoption_count, total_fee_revenue, avg_adoption_fee
+2026-02-13 19:57:35 | INFO | P05 | 5, 405.0, 81.0
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | animal_type, total_outcomes, adoption_count, non_adoption_count, total_fees, avg_adoption_fee
+2026-02-13 19:57:35 | INFO | P05 | Dog, 3, 2, 1, 270.0, 135.0
+2026-02-13 19:57:35 | INFO | P05 | Cat, 2, 2, 0, 135.0, 67.5
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | shelter_id, shelter_name, city, capacity, adoption_count, total_adoption_fees, avg_adoption_fee
+2026-02-13 19:57:35 | INFO | P05 | H001, Pine Valley Shelter, Ely, 40, 2, 225.0, 112.5
+2026-02-13 19:57:35 | INFO | P05 | H003, South Ridge Shelter, Mankato, 35, 1, 120.0, 120.0
+2026-02-13 19:57:35 | INFO | P05 | H002, Lake County Shelter, Duluth, 60, 2, 60.0, 30.0
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 19:57:35 | INFO | P05 | ====================================
+2026-02-13 19:57:35 | INFO | P05 | shelter_count
+2026-02-13 19:57:35 | INFO | P05 | 3
+2026-02-13 19:57:35 | INFO | P05 | 
+2026-02-13 19:57:35 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_revenue.sql
+2026-02-13 20:00:12 | INFO | P05 | === RUN START ===
+2026-02-13 20:00:12 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 20:00:12 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 20:00:12 | INFO | P05 | python=3.14.3
+2026-02-13 20:00:12 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 20:00:12 | INFO | P05 | shell=zsh
+2026-02-13 20:00:12 | INFO | P05 | cwd=.
+2026-02-13 20:00:12 | INFO | P05 | github_actions=False
+2026-02-13 20:00:12 | INFO | P05 | START main()
+2026-02-13 20:00:12 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 20:00:12 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 20:00:12 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 20:00:12 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 20:00:12 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 20:00:12 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 20:00:12 | INFO | P05 | LOAD CSV -> table shelter: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/shelter.csv
+2026-02-13 20:00:12 | INFO | P05 | DONE loading shelter rows: 3
+2026-02-13 20:00:12 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 20:00:12 | INFO | P05 | DONE loading adoption rows: 5
+2026-02-13 20:00:12 | INFO | P05 | COMMIT: data load complete
+2026-02-13 20:00:12 | INFO | P05 | 
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | adoption_count
+2026-02-13 20:00:12 | INFO | P05 | 5
+2026-02-13 20:00:12 | INFO | P05 | 
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | adoption_count, total_fee_revenue, avg_adoption_fee
+2026-02-13 20:00:12 | INFO | P05 | 5, 405.0, 81.0
+2026-02-13 20:00:12 | INFO | P05 | 
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | animal_type, total_outcomes, adoption_count, non_adoption_count, total_fees, avg_adoption_fee
+2026-02-13 20:00:12 | INFO | P05 | Dog, 3, 2, 1, 270.0, 135.0
+2026-02-13 20:00:12 | INFO | P05 | Cat, 2, 2, 0, 135.0, 67.5
+2026-02-13 20:00:12 | INFO | P05 | 
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | shelter_count
+2026-02-13 20:00:12 | INFO | P05 | 3
+2026-02-13 20:00:12 | INFO | P05 | 
+2026-02-13 20:00:12 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 20:00:12 | INFO | P05 | ====================================
+2026-02-13 20:00:12 | INFO | P05 | shelter_id, shelter_name, city, capacity, adoption_count, total_adoption_fees, avg_adoption_fee
+2026-02-13 20:00:12 | INFO | P05 | H001, Pine Valley Shelter, Ely, 40, 2, 225.0, 112.5
+2026-02-13 20:00:12 | INFO | P05 | H003, South Ridge Shelter, Mankato, 35, 1, 120.0, 120.0
+2026-02-13 20:00:12 | INFO | P05 | H002, Lake County Shelter, Duluth, 60, 2, 60.0, 30.0
+2026-02-13 20:00:12 | INFO | P05 | END main()
+2026-02-13 20:06:19 | INFO | P05 | === RUN START ===
+2026-02-13 20:06:19 | INFO | P05 | project=P05 Pipeline Example (SQLite)
+2026-02-13 20:06:19 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-13 20:06:19 | INFO | P05 | python=3.14.3
+2026-02-13 20:06:19 | INFO | P05 | os=Darwin 25.2.0
+2026-02-13 20:06:19 | INFO | P05 | shell=zsh
+2026-02-13 20:06:19 | INFO | P05 | cwd=.
+2026-02-13 20:06:19 | INFO | P05 | github_actions=False
+2026-02-13 20:06:19 | INFO | P05 | START main()
+2026-02-13 20:06:19 | INFO | P05 | ROOT_DIR: /Users/macbookpro/REPOS/datafun-05-sql
+2026-02-13 20:06:19 | INFO | P05 | DATA_DIR: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter
+2026-02-13 20:06:19 | INFO | P05 | SQL_DIR: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite
+2026-02-13 20:06:19 | INFO | P05 | DB_PATH: /Users/macbookpro/REPOS/datafun-05-sql/artifacts/sqlite/shelter.sqlite
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 20:06:19 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_clean.sql
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 20:06:19 | INFO | P05 | DONE SQL script: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_bootstrap.sql
+2026-02-13 20:06:19 | INFO | P05 | LOAD CSV -> table shelter: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/shelter.csv
+2026-02-13 20:06:19 | INFO | P05 | DONE loading shelter rows: 3
+2026-02-13 20:06:19 | INFO | P05 | LOAD CSV -> table adoption: /Users/macbookpro/REPOS/datafun-05-sql/data/shelter/adoption.csv
+2026-02-13 20:06:19 | INFO | P05 | DONE loading adoption rows: 5
+2026-02-13 20:06:19 | INFO | P05 | COMMIT: data load complete
+2026-02-13 20:06:19 | INFO | P05 | 
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | dsmorgancodes_shelter_query_adoption_count.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | adoption_count
+2026-02-13 20:06:19 | INFO | P05 | 5
+2026-02-13 20:06:19 | INFO | P05 | 
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_aggregate.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | adoption_count, total_fee_revenue, avg_adoption_fee
+2026-02-13 20:06:19 | INFO | P05 | 5, 405.0, 81.0
+2026-02-13 20:06:19 | INFO | P05 | 
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | dsmorgancodes_shelter_query_adoptions_by_animal_type.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | animal_type, total_outcomes, adoption_count, non_adoption_count, total_fees, avg_adoption_fee
+2026-02-13 20:06:19 | INFO | P05 | Dog, 3, 2, 1, 270.0, 135.0
+2026-02-13 20:06:19 | INFO | P05 | Cat, 2, 2, 0, 135.0, 67.5
+2026-02-13 20:06:19 | INFO | P05 | 
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | dsmorgancodes_shelter_query_shelter_count.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | shelter_count
+2026-02-13 20:06:19 | INFO | P05 | 3
+2026-02-13 20:06:19 | INFO | P05 | 
+2026-02-13 20:06:19 | INFO | P05 | RUN SQL query: /Users/macbookpro/REPOS/datafun-05-sql/sql/sqlite/dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | dsmorgancodes_shelter_query_kpi_adoption_fees.sql
+2026-02-13 20:06:19 | INFO | P05 | ====================================
+2026-02-13 20:06:19 | INFO | P05 | shelter_id, shelter_name, city, capacity, adoption_count, total_adoption_fees, avg_adoption_fee
+2026-02-13 20:06:19 | INFO | P05 | H001, Pine Valley Shelter, Ely, 40, 2, 225.0, 112.5
+2026-02-13 20:06:19 | INFO | P05 | H003, South Ridge Shelter, Mankato, 35, 1, 120.0, 120.0
+2026-02-13 20:06:19 | INFO | P05 | H002, Lake County Shelter, Duluth, 60, 2, 60.0, 30.0
+2026-02-13 20:06:19 | INFO | P05 | END main()

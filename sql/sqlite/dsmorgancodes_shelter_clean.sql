@@ -1,0 +1,57 @@
+-- sql/sqlite/dsmorgancodes_shelter_clean.sql
+-- ============================================================
+-- PURPOSE
+-- ============================================================
+-- Completely removes shelter tables from the SQLite database.
+-- This "clean" step resets the database so we can rebuild it.
+-- Creating a multi-table schema from scratch is common practice
+-- during development and testing workflows.
+--
+-- ASSUMPTION:
+-- We always run all commands from the project root directory.
+--
+-- EXPECTED PROJECT PATHS (relative to repo root):
+--   SQL:  sql/sqlite/dsmorgancodes_shelter_clean.sql
+--   CSV:  data/shelter/adoption.csv
+--   CSV:  data/shelter/shelter.csv
+--   DB:   artifacts/sqlite/shelter.sqlite
+--
+--
+-- ============================================================
+-- TOPIC DOMAIN + 1:M RELATIONSHIP
+-- ============================================================
+-- OUR DOMAIN: SHELTER
+-- The two tables are related in a one-to-many relationship (1:M):
+-- - shelter (1): independent/parent table
+-- - adoption (M): dependent/child table
+--
+-- The child table references the parent table by foreign key:
+-- - adoption.shelter_id -> shelter.shelter_id
+--
+-- REQ: Drop tables in reverse order (CHILD FIRST, THEN PARENT)
+--      to avoid foreign key constraint issues.
+--
+--
+-- ============================================================
+-- EXECUTION: ATOMIC CLEAN (ALL OR NOTHING)
+-- ============================================================
+-- Use a transaction to ensure atomicity:
+-- either all operations succeed, or none do.
+BEGIN TRANSACTION;
+--
+--
+-- ============================================================
+-- STEP 1: DROP TABLES (CHILD FIRST, THEN PARENT)
+-- ============================================================
+-- Drop dependent/child table first.
+DROP TABLE IF EXISTS adoption;
+
+-- Drop independent/parent table second.
+DROP TABLE IF EXISTS shelter;
+--
+--
+-- ============================================================
+-- FINISH EXECUTION: ATOMIC CLEAN (ALL OR NOTHING)
+-- ============================================================
+-- If all operations succeed, commit the changes.
+COMMIT;
