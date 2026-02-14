@@ -97,7 +97,7 @@ repos:
 
       - id: check-added-large-files
         name: C1) Prevent accidental commits of large binaries
-        args: [--maxkb=500]
+        args: [--maxkb=2500]
 
       - id: check-merge-conflict
         name: C2) Prevent committing merge conflicts
@@ -117,7 +117,6 @@ repos:
       - id: ruff
         name: D2) Ruff linter (autofix errors, style issues )
         args: [--fix, --exit-non-zero-on-fix]
-
 
 # === GLOBAL SETTINGS ===
 # ALT: Set fail_fast to true to stop at first failure.
